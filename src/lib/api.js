@@ -1,4 +1,4 @@
-import FIREBASE_DOMAIN from "../constants";
+const FIREBASE_DOMAIN = 'https://router-quotes-proj-default-rtdb.firebaseio.com';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
