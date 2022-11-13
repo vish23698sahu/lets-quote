@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2fa913;
+}
+
+.logo {
+  font-size: 2rem;
+  color: black;
+  font-weight: 550;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: rgb(204, 242, 193);
+  text-decoration: none;
+}
+
+.logo:hover{
+  background-color: rgb(232, 249, 228);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: black;
+}
