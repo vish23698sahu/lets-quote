@@ -46,3 +46,24 @@
 .nav a.active {
   color: black;
 }
+
+@media screen and (max-width:786px) {
+  .logo {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 550;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(204, 242, 193);
+    text-decoration: none;
+  }
+
+  .header{
+    padding-left: 9%;
+  }
+}
+
+
